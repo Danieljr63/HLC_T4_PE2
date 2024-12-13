@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: "Klee One", serif;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.menu {
+    background-color: #85CEF0;
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.menu button {
+    width: 80%;
+    background-color: #f8f8ff;
+    border: 0;
+    border-radius: 5px;
+    padding: 5% 10%;
+    margin: 5%;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+span {
+    background-color: #d3f8f7;
+}
+
+.menu button:hover {
+    background-color: #E2E5E7;
+}
+
+.tab-content {
+    background-color: #E2E5E7;
+    width: 85%;
+}
+
+.tab {
+    display: none;
+    margin-left: 2%;
+}
+
+.tab.active {
+    display: block;
+}
+
+form {
+    height: 200px;
+    width: 600px;
+    margin: 120px;
+    background-color: white; 
+    padding: 2%;
+    box-shadow: 2px 3px 10px grey;
+}
+
+form textarea {
+    margin-top: 95px;
+    width: 35%;
+    height: 35%;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+input {
+    width: 85%;
+    border-radius: 5px;
+    border: 0;
+}
+.textbox{
+    margin-top: 12%;
+    display: flex;
+    background-color: #E2E5E7;
+}
+.chat-btn {
+    margin-top: 95px;
+    margin-left: 10px; 
+    width: 12%;
+    height: 35px;
+    background-color: #F9DC6A;
+}
